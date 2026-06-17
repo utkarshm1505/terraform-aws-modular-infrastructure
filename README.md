@@ -10,13 +10,14 @@ The infrastructure is organized into separate Development and Production environ
 
 ## Key Features
 
-* Infrastructure as Code (IaC) using Terraform
-* Modular and reusable Terraform configurations
-* Separate Development and Production environments
-* AWS IAM resource provisioning
-* AWS EC2 instance deployment
-* Environment-specific configuration management
-* Scalable project structure for future expansion
+- Infrastructure as Code (IaC) using Terraform
+- Modular and reusable Terraform configurations
+- Separate Development and Production environments
+- AWS IAM user, group, and policy provisioning
+- AWS EC2 instance deployment
+- AWS VPC provisioning using Terraform Registry modules
+- Environment-specific configuration management
+- Scalable project structure for future expansion
 
 ---
 
@@ -58,6 +59,7 @@ terraform-aws-multi-environment-infrastructure
 * Amazon Web Services (AWS)
 * AWS EC2
 * AWS IAM
+* AWS VPC
 * Infrastructure as Code (IaC)
 
 ---
@@ -111,7 +113,6 @@ This project helped in understanding:
 
 ## Future Enhancements
 
-* VPC Module Integration
 * Security Group Management
 * Auto Scaling Configuration
 * Load Balancer Integration
